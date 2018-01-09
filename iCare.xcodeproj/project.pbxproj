@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65AABE5F07F39A065AC449E3 /* Pods_iCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80E49D7B07A8E8EA79D7672 /* Pods_iCare.framework */; };
 		805872AC1FED08FE00940AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872AB1FED08FE00940AE7 /* AppDelegate.swift */; };
-		805872AE1FED08FE00940AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872AD1FED08FE00940AE7 /* ViewController.swift */; };
 		805872B11FED08FE00940AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805872AF1FED08FE00940AE7 /* Main.storyboard */; };
 		805872B31FED08FE00940AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805872B21FED08FE00940AE7 /* Assets.xcassets */; };
 		805872B61FED08FE00940AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805872B41FED08FE00940AE7 /* LaunchScreen.storyboard */; };
+		805872BE1FED101400940AE7 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872BD1FED101400940AE7 /* TicketViewController.swift */; };
+		805872C01FED11DA00940AE7 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872BF1FED11DA00940AE7 /* TicketTableViewCell.swift */; };
+		805872C41FED137500940AE7 /* FollowUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872C31FED137500940AE7 /* FollowUpTableViewCell.swift */; };
+		805872C81FED18B100940AE7 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872C71FED18B100940AE7 /* FollowViewController.swift */; };
+		805872CA1FED1BAC00940AE7 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872C91FED1BAC00940AE7 /* PatientsViewController.swift */; };
+		805872CC1FED1C9200940AE7 /* PatientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872CB1FED1C9200940AE7 /* PatientsTableViewCell.swift */; };
+		805872D31FED23D400940AE7 /* UIButton+roundBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872D21FED23D400940AE7 /* UIButton+roundBorder.swift */; };
+		805872D61FED2AD100940AE7 /* BorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872D51FED2AD100940AE7 /* BorderedTextField.swift */; };
+		805872D81FED2C7900940AE7 /* PatientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872D71FED2C7900940AE7 /* PatientDetailsViewController.swift */; };
+		805872DA1FED324B00940AE7 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872D91FED324B00940AE7 /* LaunchViewController.swift */; };
+		805872DD1FED349400940AE7 /* Follow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805872DC1FED349400940AE7 /* Follow.swift */; };
+		805872DF1FED3C1000940AE7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 805872DE1FED3C1000940AE7 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		805872A81FED08FE00940AE7 /* iCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805872AB1FED08FE00940AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		805872AD1FED08FE00940AE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		805872B01FED08FE00940AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		805872B21FED08FE00940AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805872B51FED08FE00940AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		805872B71FED08FE00940AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805872BD1FED101400940AE7 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		805872BF1FED11DA00940AE7 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		805872C31FED137500940AE7 /* FollowUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowUpTableViewCell.swift; sourceTree = "<group>"; };
+		805872C71FED18B100940AE7 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		805872C91FED1BAC00940AE7 /* PatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
+		805872CB1FED1C9200940AE7 /* PatientsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsTableViewCell.swift; sourceTree = "<group>"; };
+		805872D21FED23D400940AE7 /* UIButton+roundBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+roundBorder.swift"; sourceTree = "<group>"; };
+		805872D51FED2AD100940AE7 /* BorderedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedTextField.swift; sourceTree = "<group>"; };
+		805872D71FED2C7900940AE7 /* PatientDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailsViewController.swift; sourceTree = "<group>"; };
+		805872D91FED324B00940AE7 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		805872DC1FED349400940AE7 /* Follow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follow.swift; sourceTree = "<group>"; };
+		805872DE1FED3C1000940AE7 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		950C513AF6D0BB77872852B6 /* Pods-iCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCare/Pods-iCare.debug.xcconfig"; sourceTree = "<group>"; };
+		A80E49D7B07A8E8EA79D7672 /* Pods_iCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41ECAA0F38E107DDA73428B /* Pods-iCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCare/Pods-iCare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AABE5F07F39A065AC449E3 /* Pods_iCare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,8 @@
 			children = (
 				805872AA1FED08FE00940AE7 /* iCare */,
 				805872A91FED08FE00940AE7 /* Products */,
+				B7E371642ECFBDF754E296F7 /* Pods */,
+				BC9477C33A3544527F373FDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,98 @@
 		805872AA1FED08FE00940AE7 /* iCare */ = {
 			isa = PBXGroup;
 			children = (
-				805872AB1FED08FE00940AE7 /* AppDelegate.swift */,
-				805872AD1FED08FE00940AE7 /* ViewController.swift */,
-				805872AF1FED08FE00940AE7 /* Main.storyboard */,
+				805872DB1FED340400940AE7 /* Data */,
+				805872CF1FED236800940AE7 /* Extensions */,
+				805872CD1FED21E500940AE7 /* AppDelegate */,
+				805872D41FED2ABB00940AE7 /* CustomViews */,
+				805872C21FED135100940AE7 /* TableViewCells */,
+				805872C11FED134000940AE7 /* Controllers */,
+				805872CE1FED21F900940AE7 /* Storyboards */,
 				805872B21FED08FE00940AE7 /* Assets.xcassets */,
-				805872B41FED08FE00940AE7 /* LaunchScreen.storyboard */,
 				805872B71FED08FE00940AE7 /* Info.plist */,
 			);
 			path = iCare;
+			sourceTree = "<group>";
+		};
+		805872C11FED134000940AE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				805872BD1FED101400940AE7 /* TicketViewController.swift */,
+				805872C71FED18B100940AE7 /* FollowViewController.swift */,
+				805872C91FED1BAC00940AE7 /* PatientsViewController.swift */,
+				805872D71FED2C7900940AE7 /* PatientDetailsViewController.swift */,
+				805872D91FED324B00940AE7 /* LaunchViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		805872C21FED135100940AE7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				805872BF1FED11DA00940AE7 /* TicketTableViewCell.swift */,
+				805872C31FED137500940AE7 /* FollowUpTableViewCell.swift */,
+				805872CB1FED1C9200940AE7 /* PatientsTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		805872CD1FED21E500940AE7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				805872AB1FED08FE00940AE7 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		805872CE1FED21F900940AE7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				805872AF1FED08FE00940AE7 /* Main.storyboard */,
+				805872B41FED08FE00940AE7 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		805872CF1FED236800940AE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				805872D21FED23D400940AE7 /* UIButton+roundBorder.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		805872D41FED2ABB00940AE7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				805872D51FED2AD100940AE7 /* BorderedTextField.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		805872DB1FED340400940AE7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				805872DC1FED349400940AE7 /* Follow.swift */,
+				805872DE1FED3C1000940AE7 /* data.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		B7E371642ECFBDF754E296F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				950C513AF6D0BB77872852B6 /* Pods-iCare.debug.xcconfig */,
+				C41ECAA0F38E107DDA73428B /* Pods-iCare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC9477C33A3544527F373FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80E49D7B07A8E8EA79D7672 /* Pods_iCare.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 805872BA1FED08FE00940AE7 /* Build configuration list for PBXNativeTarget "iCare" */;
 			buildPhases = (
+				EE0A18A7F40E191AC0FFD023 /* [CP] Check Pods Manifest.lock */,
 				805872A41FED08FE00940AE7 /* Sources */,
 				805872A51FED08FE00940AE7 /* Frameworks */,
 				805872A61FED08FE00940AE7 /* Resources */,
+				D140B8071344D5E05A1FDBE6 /* [CP] Embed Pods Frameworks */,
+				2571CC2ABF1222FE95C8C062 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,18 +243,87 @@
 				805872B61FED08FE00940AE7 /* LaunchScreen.storyboard in Resources */,
 				805872B31FED08FE00940AE7 /* Assets.xcassets in Resources */,
 				805872B11FED08FE00940AE7 /* Main.storyboard in Resources */,
+				805872DF1FED3C1000940AE7 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2571CC2ABF1222FE95C8C062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCare/Pods-iCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D140B8071344D5E05A1FDBE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iCare/Pods-iCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iCare/Pods-iCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0A18A7F40E191AC0FFD023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		805872A41FED08FE00940AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805872AE1FED08FE00940AE7 /* ViewController.swift in Sources */,
+				805872D31FED23D400940AE7 /* UIButton+roundBorder.swift in Sources */,
+				805872CC1FED1C9200940AE7 /* PatientsTableViewCell.swift in Sources */,
+				805872C41FED137500940AE7 /* FollowUpTableViewCell.swift in Sources */,
+				805872D81FED2C7900940AE7 /* PatientDetailsViewController.swift in Sources */,
+				805872CA1FED1BAC00940AE7 /* PatientsViewController.swift in Sources */,
 				805872AC1FED08FE00940AE7 /* AppDelegate.swift in Sources */,
+				805872DD1FED349400940AE7 /* Follow.swift in Sources */,
+				805872BE1FED101400940AE7 /* TicketViewController.swift in Sources */,
+				805872C01FED11DA00940AE7 /* TicketTableViewCell.swift in Sources */,
+				805872DA1FED324B00940AE7 /* LaunchViewController.swift in Sources */,
+				805872C81FED18B100940AE7 /* FollowViewController.swift in Sources */,
+				805872D61FED2AD100940AE7 /* BorderedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +444,7 @@
 		};
 		805872BB1FED08FE00940AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950C513AF6D0BB77872852B6 /* Pods-iCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UJD833G6Z4;
@@ -272,6 +458,7 @@
 		};
 		805872BC1FED08FE00940AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41ECAA0F38E107DDA73428B /* Pods-iCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UJD833G6Z4;
@@ -302,6 +489,7 @@
 				805872BC1FED08FE00940AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
