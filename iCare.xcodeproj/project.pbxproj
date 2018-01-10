@@ -212,7 +212,7 @@
 				TargetAttributes = {
 					805872A71FED08FE00940AE7 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UJD833G6Z4;
+						DevelopmentTeam = GYL934XVH2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -447,10 +447,10 @@
 			baseConfigurationReference = 950C513AF6D0BB77872852B6 /* Pods-iCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UJD833G6Z4;
+				DEVELOPMENT_TEAM = GYL934XVH2;
 				INFOPLIST_FILE = iCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = be.appreciate.iCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crafted.iCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -461,10 +461,10 @@
 			baseConfigurationReference = C41ECAA0F38E107DDA73428B /* Pods-iCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UJD833G6Z4;
+				DEVELOPMENT_TEAM = GYL934XVH2;
 				INFOPLIST_FILE = iCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = be.appreciate.iCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crafted.iCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
